@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de Estudiantes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Administrador de Estudiantes</h1>
+    
+    <!-- Formulario para agregar estudiantes -->
+    <form id="studentForm">
+        <label for="tipoDocumento">Tipo Documento:</label>
+        <select id="tipoDocumento" required>
+            <option value="CC">CC</option>
+            <option value="CE">CE</option>
+            <option value="TI">TI</option>
+            <option value="NIUP">NIUP</option>
+        </select>
+        <label for="numeroDocumento">Número Documento:</label>
+        <input type="text" id="numeroDocumento" required>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" required>
+        <label for="nivelEstudios">Nivel de Estudios:</label>
+        <select id="nivelEstudios" required>
+            <option value="Pregrado">Pregrado</option>
+            <option value="Maestría">Maestría</option>
+            <option value="Doctorado">Doctorado</option>
+        </select>
+        <label for="areaEstudio">Área de Estudio:</label>
+        <select id="areaEstudio" required>
+            <option value="Matemáticas">Matemáticas</option>
+            <option value="Ciencias">Ciencias</option>
+            <option value="Sistemas">Sistemas</option>
+        </select>
+        <label for="grado">Grado:</label>
+        <select id="grado" required>
+            <option value="Primer Semestre">Primer Semestre</option>
+            <option value="Segundo Semestre">Segundo Semestre</option>
+            <option value="Tercer Semestre">Tercer Semestre</option>
+            <option value="Cuarto Semestre">Cuarto Semestre</option>
+        </select>
+        <label for="eps">EPS:</label>
+        <input type="text" id="eps" required>
+        <label for="salario">Salario:</label>
+        <input type="text" id="salario" required>
+        <button type="submit">Agregar Estudiante</button>
+    </form>
+
+    <!-- Contenedor para mostrar la lista de estudiantes -->
+    <div id="studentList"></div>
+
+    <script src="dinamismo.js"></script>
+</body>
+</html>
