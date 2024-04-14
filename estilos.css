@@ -10,9 +10,9 @@ h1 {
 }
 
 form, #studentList, .editForm {
-    width: 40%; /* Mismo ancho para el formulario y el contenedor de la lista */
+    width: 40%; 
     margin: 0 auto;
-    background-color: #73bbe4; /* Color suave para el formulario, la lista de estudiantes y el formulario de edición */
+    background-color: #73bbe4; 
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -74,18 +74,17 @@ background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox=
     padding: 6px 12px;
     font-size: 14px;
     border-radius: 4px;
-    margin-top: 5px; /* Espacio adicional entre los botones */
+    margin-top: 5px; 
 }
 
 .editBtn {
-    background-color: #5cb85c; /* Color suave para el botón de editar */
+    background-color: #5cb85c; 
     margin-right: 5px;
 }
 
 .deleteBtn {
-    background-color: #d9534f; /* Color suave para el botón de eliminar */
-}
+    background-color: #d9534f; 
 
 #cancelBtn {
-    background-color: #d9534f; /* Color suave para el botón de cancelar en el formulario de edición */
+    background-color: #d9534f; 
 }
